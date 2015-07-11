@@ -3,7 +3,7 @@ layout: default
 title: Acerca De
 permalink: /about/
 ---
-{%include bootstrap.html%}
+{%include title.html icon="glyphicon glyphicon-pencil" title=" ACERCA DEL AUTOR"%}
 
 {%include image.html img="/assets/imagen.jpg" url="http://www.twitter.com/oky_capriatto" %}
 
