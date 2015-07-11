@@ -7,6 +7,5 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://capriatto.github.io" # the base hostname & protocol for your site
 twitter_username: oky_capriatto
 github_username:  Capriatto
-pages_list: {'Acerca de':'/about','Contacto':'/contact', 'He escrito':'/archive'}
 # Build settings
 markdown: kramdown
