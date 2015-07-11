@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contacto
-permalink: /contacto/
+permalink: /contact/
 ---
 
 {%include contact.html%}

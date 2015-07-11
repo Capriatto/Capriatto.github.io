@@ -1,3 +1,7 @@
+p {
+  text-align: justify
+}
+
 /**
  * Site header
  */
@@ -135,6 +139,11 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
+.footer-copyright{
+    text-align: center;
+    color: grey;
+}
+
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
@@ -188,7 +197,26 @@
     font-size: 24px;
 }
 
+.image-wrapper {
+  text-align: center;
 
+  .image-caption {
+    color: $grey-color;
+    margin-top: $spacing-unit / 3;
+    text-align: center;
+  }
+}
+
+.img-circle {
+  width: 25%;
+  border-radius: 50%;
+  -moz-border-radius: 15px
+}
+
+.center{
+  text-align: center;
+
+}
 
 /**
  * Posts

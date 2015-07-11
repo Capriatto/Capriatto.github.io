@@ -1,11 +1,13 @@
 ---
-layout: page
+layout: default
 title: Acerca De
-permalink: /acerca/
+permalink: /about/
 ---
+{%include bootstrap.html%}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+{%include image.html img="/assets/imagen.jpg" caption="Acerca del Autor" url="http://www.twitter.com/oky_capriatto" %}
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Mi nombre es Juan sebastián Ocampo Ospina. Nací en Sevilla, Valle del Cauca, Colombia y Tengo 21 años de edad. Soy un apasionado de la
+tecnología y la informática en general. Soy tecnólogo en sistemas de información de la [Universidad del Valle](http://www.univalle.edu.co/)
+y actualmente estudio Ingeniería en sistemas y computación en la [Universidad del Quindío](http://www.uniquindio.edu.co/). Me apasiona la
+tecnología y los geek topics por lo que decidí hacer este blog para compartir mis conocimientos y experiencias.
