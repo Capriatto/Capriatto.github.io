@@ -5,7 +5,7 @@ permalink: /about/
 ---
 {%include bootstrap.html%}
 
-{%include image.html img="/assets/imagen.jpg" caption="Acerca del Autor" url="http://www.twitter.com/oky_capriatto" %}
+{%include image.html img="/assets/imagen.jpg" url="http://www.twitter.com/oky_capriatto" %}
 
 Mi nombre es Juan sebastián Ocampo Ospina. Nací en Sevilla, Valle del Cauca, Colombia y Tengo 21 años de edad. Soy un apasionado de la
 tecnología y la informática en general. Soy tecnólogo en sistemas de información de la [Universidad del Valle](http://www.univalle.edu.co/)
