@@ -1,26 +1,54 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-06-08 04:19:25
-categories: jekyll update
+title:  "Wkhtmltopdf en Odoo 8 [Ubuntu]"
+date:   2015-07-17 10:00:00
+categories: Odoo
+permalink: /odoo/wkhtmltopdf-odoo8
 comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+#¿Qué es wkhtmltopdf?
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+[Wkhtmltopdf][wkthtmltopdf] Es una librería o plugin [open source][opensource] que nos permite convertir html
+ a PDF y otros formatos de imágen. En Odoo es muy importante contar con él porque nos permite generar reportes.
 
-Jekyll also offers powerful support for code snippets:
+#La instalación:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+  1. Instalamos wkhtmltopdf desde la librería de ubuntu:
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+     `sudo apt-get install wkhtmltopdf`
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+  2. Una vez instalado con la librería de ubuntu nos quedará el ejecutable en `/usr/bin`.
+
+  3. Ahora instalamos el paquete oficial (compatible con nuestra versión de ubuntu). Para saber qué versión de Ubuntu estamos utilizando
+     usamos el comando:
+
+     `cat /etc/os-release`
+
+     Podemos verlo en la línea *PRETTY_NAME="Ubuntu 14.04 LTS"*
+
+     Una vez que sabemos que versión tenemos podemos buscarla [aqui][descargas]. Para descargarla damos clic derecho sobre la arquitectura
+     que deseamos descargar (32 o 64) y vamos a la línea de comandos y escribimos `wget ruta_al_archivo` Ejemplo:
+
+     `wget download.gna.org/wkhtmltopdf/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb`
+
+  4. Ahora que tenemos descargado el paquete lo instalamos con el siguiente comando:
+
+      `dpkg -i nombre_archivo.deb`
+
+     Los archivos quedarán en: `/usr/local/bin`
+
+  5. Por último el truco más importante. Reemplazar los archivos localizados en `/usr/local/bin` por los que están en
+    `/usr/bin/`
+
+  6. Puede ser necesario reiniciar el servicio de odoo para que se apliquen los cambios.
+
+#Conclusión:
+
+  Wkhtmltopdf nos permite generar pdf y otros formatos de imagen. Es muy útil para generar reportes en odoo. La instalación se lleva a cabo
+  por medio de un *truco* que se trata de instalar dos versiones distintas de wkhtmltopdf y reemplazar los archivos como se indica más arriba.
+
+
+
+[opensource]:     http://jekyllrb.com
+[wkthtmltopdf]:   http://wkhtmltopdf.org/
+[descargas]:      http://wkhtmltopdf.org/downloads.html
