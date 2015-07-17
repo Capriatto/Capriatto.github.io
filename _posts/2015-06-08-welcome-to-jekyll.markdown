@@ -49,6 +49,6 @@ comments: true
 
 
 
-[opensource]:     http://jekyllrb.com
+[opensource]:     https://es.wikipedia.org/wiki/C%C3%B3digo_abierto
 [wkthtmltopdf]:   http://wkhtmltopdf.org/
 [descargas]:      http://wkhtmltopdf.org/downloads.html
