@@ -42,12 +42,6 @@ comments: true
 
   6. Puede ser necesario reiniciar el servicio de odoo para que se apliquen los cambios.
 
-#Conclusión:
-
-  Wkhtmltopdf nos permite generar pdf y otros formatos de imagen. Es muy útil para generar reportes en odoo. La instalación se lleva a cabo
-  por medio de un *truco* que se trata de instalar dos versiones distintas de wkhtmltopdf y reemplazar los archivos como se indica más arriba.
-
-
 
 [opensource]:     https://es.wikipedia.org/wiki/C%C3%B3digo_abierto
 [wkthtmltopdf]:   http://wkhtmltopdf.org/
