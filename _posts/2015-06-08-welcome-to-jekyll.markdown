@@ -40,10 +40,7 @@ comments: true
   5. Por último el truco más importante. Reemplazar los archivos localizados en `/usr/local/bin` por los que están en
     `/usr/bin/`
 
-  6. Puede ser necesario reiniciar el servicio de odoo para que se apliquen los cambios.
-
-
-  7. Crear una parámetro del sistema. Desde google plus el usuario [Juan Pablo Arias][juanpabloarias-plus] nos aporta
+  6. Crear una parámetro del sistema. Desde google plus el usuario [Juan Pablo Arias][juanpabloarias-plus] nos aporta
   este paso. Vamos a la siguiente ubicación en Odoo:
 
       `Configuración->parámetros->parámetros del sistema->crear`
@@ -54,11 +51,7 @@ comments: true
 
         `Valor : http://127.0.0.1:8069`
 
-
-
-
-
-
+  7. Puede ser necesario reiniciar el servicio de odoo para que se apliquen los cambios.
 
 
 [opensource]:     https://es.wikipedia.org/wiki/C%C3%B3digo_abierto
