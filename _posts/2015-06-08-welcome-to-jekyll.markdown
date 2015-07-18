@@ -37,7 +37,7 @@ comments: true
 
      Los archivos quedarán en: `/usr/local/bin`
 
-  5. Por último el truco más importante. Reemplazar los archivos localizados en `/usr/local/bin` por los que están en
+  5. El truco más importante. Reemplazar los archivos localizados en `/usr/local/bin` por los que están en
     `/usr/bin/`
 
   6. Crear una parámetro del sistema. Desde google plus el usuario [Juan Pablo Arias][juanpabloarias-plus] nos aporta
