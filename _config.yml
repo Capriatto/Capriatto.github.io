@@ -9,3 +9,5 @@ twitter_username: oky_capriatto
 github_username:  Capriatto
 # Build settings
 markdown: kramdown
+highlighter: pygments
+paginate: 10

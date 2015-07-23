@@ -3,7 +3,6 @@ layout: post
 title:  "Wkhtmltopdf en Odoo 8 [Ubuntu]"
 date:   2015-07-17 10:00:00
 categories: Odoo
-permalink: /odoo/wkhtmltopdf-odoo8
 comments: true
 ---
 #¿Qué es wkhtmltopdf?

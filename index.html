@@ -3,21 +3,20 @@ layout: default
 ---
 
 <div class="home">
+  <p class="rss-subscribe">Suscríbete <a href="{{ "/feed.xml" | prepend: site.baseurl }}">vía RSS</a></p>
 
-  <h1 class="page-heading">Publicaciones:</h1>
+  {%include title.html icon="glyphicon glyphicon-briefcase" title=" PUBLICACIONES"%}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <ul>
+    {% for post in site.posts limit 5%}
+      <h3><a href="{{ post.url }}">{%include bootstrap-icon.html icon="glyphicon glyphicon-link" %} {{ post.title }} <small>{{ post.date | date_to_string }}</small></br></a></h3>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      {{ post.content | strip_html |  truncatewords:35}}
+      <a href="{{ post.url }}">Leer más</a><br><br>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">Suscríbete <a href="{{ "/feed.xml" | prepend: site.baseurl }}">vía RSS</a></p>
+
+
 
 </div>
