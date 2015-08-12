@@ -30,7 +30,7 @@ Vamos a asumir que ya tienes instalado [Ruby][ruby] en tu máquina. Si no es as�
 Una vez instalado Ruby podemos enfocarnos en Rails. Vamos a crear nuestro primero proyecto con el siguiente comando en consola.
 
 {%highlight bash%}
-  $ rails new codehero_web
+  $ rails new proyecto_rubyonrails
 {%endhighlight %}
 
 Si todo ha ido bien deberiamos poder ver nuestra estructura de archivos creada así.
