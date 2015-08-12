@@ -26,9 +26,3 @@ Para este ejemplo usaremos el evento `on_change` como se ve a continuación.
                                       ('active', '=', True)])
     return {'value': {'ideas': ideas}}
   {% endhighlight %}
-
-
-[opensource]:     https://es.wikipedia.org/wiki/C%C3%B3digo_abierto
-[wkthtmltopdf]:   http://wkhtmltopdf.org/
-[descargas]:      http://wkhtmltopdf.org/downloads.html
-[juanpabloarias-plus]:      https://plus.google.com/106433501765951492366/
