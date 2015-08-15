@@ -37,6 +37,17 @@ Si todo ha ido bien deberiamos poder ver nuestra estructura de archivos creada a
 
 {%include image.html img="/assets/rubyonrails1/1.png" caption="$ tree -d" %}
 
+Ahora para instalar todas las dependencias de nuestro proyecto utilizaremos el administrador de gemas `bundler`:
+
+{%highlight bash%}
+$ gem install bundler
+$ bundle install
+{%endhighlight %}
+
+Esto les instalará todas las dependencias del proyecto.
+
+{%include image.html img="/assets/rubyonrails1/4.png" caption="$ bundle install" %}
+
 Cuando hemos logrado crear nuestro proyecto tendremos que `iniciar el servidor` de la aplicación para ver nuestra aplicación demo.
 
 {%highlight bash%}
@@ -50,22 +61,10 @@ Si todo ha ido bien hasta aquí deberíamos tener nuestro proyecto corriendo en 
 {%include image.html img="/assets/rubyonrails1/3.png" caption="Deploy en web browser" %}
 
 
+
 {% include alert.html tipo="alert alert-success" alerta="ENHORABUENA TU PRIMER PROYECTO RUBY ON RAILS! :clap: :+1: " %}
 
-{%include divider.html%}
 
-{%include title.html title="SOLUCIÓN DE ERRORES"%}
-
-(si les marca algún error el ultimo paso asegurense de tener instalado `bundler`.)
-
-{%highlight bash%}
-$ gem install bundler
-$ bundle install
-{%endhighlight %}
-
-Esto les instalará todas las dependencias del proyecto.
-
-{%include image.html img="/assets/rubyonrails1/4.png" caption="$ bundle install" %}
 
 [ruby]:           https://www.ruby-lang.org/es/
 [twitter]:        http://twitter.com/
