@@ -27,7 +27,13 @@ aplicaciones web
 
 Vamos a asumir que ya tienes instalado [Ruby][ruby] en tu máquina. Si no es así, [visita este enlace antes de iniciar][descargar-ruby]
 
-Una vez instalado Ruby podemos enfocarnos en Rails. Vamos a crear nuestro primero proyecto con el siguiente comando en consola.
+Una vez instalado Ruby podemos enfocarnos en Rails. Vamos a instalarlo:
+
+{%highlight bash%}
+$ apt-get install rails
+{%endhighlight %}
+
+Ahora vamos a crear nuestro primero proyecto con el siguiente comando en consola.
 
 {%highlight bash%}
   $ rails new proyecto_rubyonrails
