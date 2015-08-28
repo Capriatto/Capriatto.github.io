@@ -1,6 +1,7 @@
 ---
 layout: default
 title: He escrito
+permalink: /past/
 ---
 {%include title.html icon="glyphicon glyphicon-folder-open" title=" MIS PUBLICACIONES"%}
 
