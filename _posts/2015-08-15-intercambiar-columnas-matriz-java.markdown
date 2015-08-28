@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Intercambiar columna de una matriz en Java"
+title:  "Intercambiar columnas de una matriz en Java"
 date:   2015-08-28 11:00:00
 categories: Java
 comments: true
