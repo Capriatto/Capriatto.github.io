@@ -28,3 +28,7 @@ for (int i = 0; i < c.length; i++) {
 
 
 {% gist 572d34d750fae745a4bc %}
+
+Este es el resultado de cambiar la columna `2` por la `4`.
+
+{%include image.html img="/assets/intercambiar-columnas-matriz-java/image.png" caption="Output consola $ rails s" %}
