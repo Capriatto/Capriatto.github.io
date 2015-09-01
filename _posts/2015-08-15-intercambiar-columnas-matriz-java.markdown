@@ -31,4 +31,4 @@ for (int i = 0; i < c.length; i++) {
 
 Este es el resultado de cambiar la columna `2` por la `4`.
 
-{%include image.html img="/assets/intercambiar-columnas-matriz-java/image.png" caption="Output consola $ rails s" %}
+{%include image.html img="/assets/intercambiar-columnas-matriz-java/image.png" caption="Output consola" %}

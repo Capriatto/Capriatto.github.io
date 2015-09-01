@@ -23,7 +23,27 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+#results-container{
+  text-align:center;
 
+}
+#search-input {
+  margin-left: 35%;
+  border: transparent;
+  display: inline-block;
+  padding: .6em;
+  font-size: 1em;
+  width : 20em;
+
+}
+#search-input:focus {
+  border: transparent;
+
+}
+
+li {
+  list-style-type:none;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
