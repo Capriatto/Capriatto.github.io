@@ -2,11 +2,11 @@
 title: Capriatto
 email: oky.capriatto@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Este es mi blog personal sobre tecnología, sistemas de información y computación dónde muestro como bitácora todas las experiencias y temas que me interesan y quiero compartir con el mundo.
+  This is my trading Journal. Take a sit and enjoy it.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://capriatto.github.io" # the base hostname & protocol for your site
 twitter_username: oky_capriatto
-github_username:  Capriatto
+instagram_username: capriatto_trader
 # Build settings
 markdown: kramdown
 highlighter: pygments
