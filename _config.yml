@@ -9,7 +9,7 @@ twitter_username: oky_capriatto
 instagram_username: capriatto_trader
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: ##
 paginate: 10
 
 gems:
