@@ -4,10 +4,10 @@
     function InvalidMsg(textbox) {
 
       if (textbox.value == '') {
-        textbox.setCustomValidity('Este campo es obligatorio.');
+        textbox.setCustomValidity('This field is requered.');
       }
       else if(textbox.validity.typeMismatch){
-        textbox.setCustomValidity('Ingrese un email válido.');
+        textbox.setCustomValidity('This field is requered.');
       }
       else {
         textbox.setCustomValidity('');
@@ -23,17 +23,17 @@
       <fieldset>
         <!-- Name input-->
         <div class="form-group">
-          <label class="col-md-3 control-label" for="name">Nombre</label>
+          <label class="col-md-3 control-label" for="name">Name</label>
           <div class="col-md-9">
-            <input id="name" name="name" type="text" placeholder="Tu nombre completo ..." class="form-control" oninvalid="InvalidMsg(this);" required>
+            <input id="name" name="name" type="text" placeholder="Your full name..." class="form-control" oninvalid="InvalidMsg(this);" required>
           </div>
         </div>
 
         <!-- Email input-->
         <div class="form-group">
-          <label class="col-md-3 control-label" for="email">E-mail</label>
+          <label class="col-md-3 control-label" for="email">Email</label>
           <div class="col-md-9">
-            <input id="email" name="email" type="email" placeholder="Tu email ..." class="form-control" oninvalid="InvalidMsg(this);" required>
+            <input id="email" name="email" type="email" placeholder="Your email ..." class="form-control" oninvalid="InvalidMsg(this);" required>
           </div>
         </div>
 
@@ -41,15 +41,15 @@
           <label class="col-sm-3 control-label"></label>
           <div class="col-sm-9">
             <label>
-              <input type="checkbox" id="terms" data-error="Verifica que eres humano" required> No quiero llenarte de spam, soy un humano.
+              <input type="checkbox" id="terms" data-error="I'm not a robot" required> I'm not a robot
             </label>
           </div>
         </div>
         <!-- Message body -->
         <div class="form-group">
-          <label class="col-md-3 control-label" for="message">Mensaje</label>
+          <label class="col-md-3 control-label" for="message">Message</label>
           <div class="col-md-9">
-            <textarea class="form-control" id="message" name="message " placeholder="Ingresa tu mensaje aquí..." rows="5" oninvalid="InvalidMsg(this);" required></textarea>
+            <textarea class="form-control" id="message" name="message " placeholder="Type your nice message..." rows="5" oninvalid="InvalidMsg(this);" required></textarea>
           </div>
         </div>
 
@@ -59,7 +59,7 @@
         <!-- Form actions -->
         <div class="form-group">
           <div class="col-md-12 text-right">
-            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
           </div>
         </div>
       </fieldset>
