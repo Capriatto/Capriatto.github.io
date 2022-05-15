@@ -80,8 +80,9 @@ h1{
     height: 39px;
     border-radius: 6px;
     color: #55F991;
-
     font-weight: 800;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .icon-image{
