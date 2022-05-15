@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+html, body {
+font-family: 'Inter', sans-serif;
+}
+
+h1{
+    line-height: 1em;
+}
+
+#app-name{
+    padding: 60px 0 0  52px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.brandAuto{
+    color: auto;
+    color: auto;
+    font-style: normal;
+    line-height: 40px;
+    /* or 100% */
+}
+.brandGreen{
+    color: #10B981;
+    color: auto;
+    font-style: normal;
+    line-height: 40px;
+    /* or 100% */
+}
+
+#container{
+    background-color: #ECFDF5;
+    width: 550px;
+    height: 550px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(255, 255, 255), #10B981) 1;
+}
+
+#slogan{
+    margin-left: 52px;
+    color: #6B7280;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#generatePass{
+    margin-top: 20px;
+    border: 0;
+    background: #10B981;
+    justify-content: center;
+    color: #fff;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    margin-left: 52px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.icon{
+    padding-right: 15px;   
+}
+
+#separator{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 356px;
+    border: 1px solid #D5D4D8;
+}
+
+
+.btn-password{
+    margin-left: 52px;
+    background-color: #273549;
+    border: none;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    color: #55F991;
+
+    font-weight: 800;
+}
+
+.icon-image{
+    opacity: 0.2;
+    width: 20px;
+}
+
+#btn-arriba{
+    margin-top: 20px;
+}
+
+#btn-abajo{
+    margin-top: 20px;
+}
+
+#copied{
+    background: #10B981;
+    padding: 5px 5px 5px 5px;
+    visibility: hidden;
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;    
+}
+
+#input-text{
+    margin-left: 52px;
+    font-weight: 100;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6B7280; 
+}
+
+#len{
+    border-color: white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #10B981;
+    font-size: 20px;
+    font-weight: 600;
+}

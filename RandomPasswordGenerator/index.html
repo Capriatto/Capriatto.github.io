@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="app-name">
+                <span class="brandAuto">Generate a</span><br/>
+                <span class="brandGreen">random password</span>
+            </h1>
+            <p id="slogan">Never use an insecure password again.</p>
+            <button id="generatePass" onclick="generatePasswords()"><img src="ico.png" class="icon"> Generate passwords</button><br/>
+            <p id="input-text">Password length: 
+                <input id="len" type="text" size="2" value="10"/>
+            </p>
+            
+            <hr id="separator"/>
+            <p id="copied">Wonderful⚡😀! Your password is now on your clipboard!</p>
+            <div id="btn-arriba">
+                <button id="btn-1" class="btn-password" onclick="btn1Copy()">
+                    <img class="icon-image" src="dots.png"/>
+                </button>
+                <button id="btn-2" class="btn-password" onclick="btn2Copy()">
+                    <img class="icon-image" src="dots.png"/>
+                </button>
+            </div>
+            <div id="btn-abajo">
+                <button id="btn-3" class="btn-password" onclick="btn3Copy()">
+                    <img class="icon-image" src="dots.png"/>
+                </button>
+                <button id="btn-4" class="btn-password" onclick="btn4Copy()">
+                    <img class="icon-image" src="dots.png"/>
+                </button>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
