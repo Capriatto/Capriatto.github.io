@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id ="banner">
+                <p id="title">Invoice creator</p>
+                <p id="subtitle">Thanks for choosing Capriatto Corp, LLC!</p>
+            </div>
+        
+            <div id= "main">
+                <div id="buttons">
+                    <button class="servicesBtn" id="washBtn">Wash Car: $10</button>
+                    <button class="servicesBtn" id="mowBtn">Mow Lawn: $20</button>
+                    <button class="servicesBtn" id="pullBtn">Pull Weeds: $30</button>
+                </div>
+                <div id="resume">
+                    <div id="labels">
+                        <span id="task">TASK</span>
+                        <span id="total">TOTAL</span>
+                    </div>
+                    <div>
+                        <ul id="car-items">
+                        </ul>
+                    </div>
+                </div>
+                <hr id="separator"></hr>
+                <div id="notes-section" >
+                    <span id="notes">NOTES</span><span id="totalAmount">TOTAL AMOUNT</span></br></br>
+                    <span id="pay-methods">We accept cash, credit card, or PayPal</span>
+                    <span id="dollar-sign">$<span id="amount">0</span></span></br></br>
+                </div>
+            </div>
+            <div id = "sendInvoiceCointainer">
+                <button id="sendBtn">
+                    <img id="image" src="msgIcon.png"/>
+                     Send invoice
+                </button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

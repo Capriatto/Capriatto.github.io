@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+p { 
+    margin:0;
+ }
+ 
+.container{
+    width: 550px;
+    height: 100%px;
+    border-radius: 0 30px 30px ;
+    color: white;
+    background-color: #1F2937;
+}
+
+.item{
+  display: inline-block;   
+  margin-right: 20px;
+}
+
+.servicesBtn{
+    width: 143.17px;
+    height: 45px;
+    grid-row: 1;
+    background: #D1D4F4;
+    border: none;
+    border-radius: 7px;
+    color: #4A4E74;
+    font-weight: 500;
+
+}
+
+.price{
+    float:right;
+    padding-right: 25px;
+    font-weight: normal;
+}
+
+.remove-link{
+  text-decoration: none;
+  cursor:pointer;
+}
+
+#banner{
+    background: #6D28D9;
+    height: 190px;
+    text-align: center;
+    border-radius:  0 30px 0 0;
+}
+
+#main{
+    padding-left: 52px;
+}
+
+#title{
+    color:white;
+    font-size: 40px;
+    font-weight: 800;
+    transform: translate(0, 100%);
+}
+
+#subtitle{
+    color: #fff;
+    font-weight: 400;
+    transform: translate(0, 300%);
+}
+
+#sendInvoiceCointainer{
+    padding: 20px 0px 30px;
+    padding-left: 52px;
+}
+
+#sendBtn{
+    border: none;
+    width: 473px;
+    height: 44px;
+    border-radius: 7px;
+    background: #6D28D9;
+    color: #fff;
+    font-weight: 500;
+    font-size:16px;
+}
+
+#image{
+    width: 16px;
+    box-sizing: border-box;
+    margin-right: 10px; 
+}
+
+#buttons{
+    padding-top: 40px;
+    display: grid;
+}
+
+#resume{
+    padding-top: 20px;
+}
+
+#labels{
+    display: inline;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#total{
+    float: right;
+    padding-right: 25px;
+}
+
+#separator{
+    border: 1px solid #C3C6DB;
+    width: 95%;
+    float: left;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+#totalAmount{
+    float: right;
+    padding-right: 25px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#notes-section{
+    padding-top: 30px; 
+}
+
+#notes{
+    font-size: 12px;
+    font-weight: 500;
+}
+#dollar-sign,#amount {
+    float: right;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#pay-methods{
+    visibility: hidden;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0px; 
+}
+
+small{
+    color: grey;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#car-items{
+    font-size: 20px;
+    font-weight: 700;
+}
