@@ -2,7 +2,7 @@
 title: Capriatto
 email: oky.capriatto@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my trading Journal. Take a sit and enjoy it.
+  This is my Spot. Take a sit and enjoy it.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://capriatto.github.io" # the base hostname & protocol for your site
 twitter_username: oky_capriatto
