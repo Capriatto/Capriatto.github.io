@@ -18,10 +18,12 @@ permalink: /about/
 
 🏢 I have worked with Odoo in the wholesale and retail industry, health and service sales. Ultimately focused on ensuring Odoo interoperability with legacy or outsourced platforms.
 
+🧭 I bring over a decade of experience across healthcare, logistics, retail, wholesale, and financial services, taking on roles such as developer, consultant, and technical project manager.
+
 💼👨🏻‍💼 In addition to being a developer, I have also been an Odoo consultant, since there are many companies that require help in the technological transformation of their organizations.
 
-⚡ Currently focused on improving my JavaScript skills. Not only for Odoo but to expand my competitiveness in the industry. Also because I have a charity project in progress and I want to use it.
+⚡🤖🚀 I'm an AI-augmented engineer who boosts productivity by 35% by integrating AI tools into my workflow.
 
-💹 I am projected in the medium term to develop tools for the financial industry, either for prediction or trading of financial instruments.
+🚧 Currently, I'm working on an AML/CTF compliance system that includes a custom Odoo module for contact management, an API middleware for bulk validations, and a web application for Athena (Data Lake) and Excel-based validations, all supported by on-demand infrastructure in AWS.
 
 🔗 Let's connect on [LinkedIn](https://www.linkedin.com/in/capriatto/).
