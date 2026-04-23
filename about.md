@@ -10,17 +10,13 @@ permalink: /about/
 
 👦🏻 Born in 1993 in the charming balcony of Valle del Cauca in Colombia (Sevilla). Passionate about computers from my father's legacy and love for the guitar and music from my mother's relatives.
 
-🏕️ Scout since the age of 13 and passionate about the outdoors and nature. My favorite snack is [choclitos](https://www.google.com/search?q=choclitos+colombia). I currently live with Camila, my co-pilot and inspiration to be a better person and contribute to society (she is a Social Worker).
+🏕️ Scout since the age of 13 and passionate about the outdoors and nature. My favorite snack is [choclitos](https://www.google.com/search?q=choclitos+colombia). I currently live with Camila, my copilot and inspiration to be a better person and contribute to society (she is a Social Worker).
 
 👨🏻‍💻 I am a Technologist in information systems and systems and computing engineer.
 
 ⌨️ My first programming language was Java and then PHP, but later I got to know ERP (enterprise resource planners) in a learning club called GIDSOFT (Software Research and Development Group). There my interest in Odoo and Python was born.
 
-🏢 I have worked with Odoo in the wholesale and retail industry, health and service sales. Ultimately focused on ensuring Odoo interoperability with legacy or outsourced platforms.
-
-🧭 I bring over a decade of experience across healthcare, logistics, retail, wholesale, and financial services, taking on roles such as developer, consultant, and technical project manager.
-
-💼👨🏻‍💼 In addition to being a developer, I have also been an Odoo consultant, since there are many companies that require help in the technological transformation of their organizations.
+🏢 I have worked with Odoo in the wholesale and retail industry, health and service sales. I have experience with this ERP since version 7, when it was still called OpenERP, more than 10 years ago. While working in retail and wholesale commerce, I developed strong expertise in materials management, manufacturing, point of sale, invoicing, assets, inventory, and dispatch logistics, along with extensive hands-on experience configuring, customizing, and maintaining these Odoo modules. Ultimately focused on taking roles such as software engineer, consultant, and technical project manager.
 
 ⚡🤖🚀 I'm an AI-augmented engineer who boosts productivity by 35% by integrating AI tools into my workflow.
 
